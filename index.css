@@ -1,0 +1,368 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body {
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+}body {
+    font-size: 15px;
+    font-family: Georgia, 游明朝, YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+    line-height: 1.8;
+}
+
+a{
+    text-decoration: none;
+    color: #444;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    height: 152px;
+    margin-top: 50px;
+}
+
+.header-left{
+    float: left;
+    line-height: 42px;
+}
+
+.gnav li{
+    float: left;
+    font-size: 16.884px;
+    padding: 0 15px;
+    position: relative;
+}
+
+.gnav li ul{
+    position: absolute;
+    top: 45px;
+    left: -5px;
+    height: 0;
+}
+
+.gnav li li{
+    width: 200px;
+    border: 1px solid #0f0f0f;
+    padding: 10px 20px 0 20px;
+    box-shadow: 0.5px 0.5px;
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.gnav li:hover ul li{
+    visibility: visible;
+    opacity: 1;
+}
+
+.gnav li a{
+    display: block;
+    padding-bottom: 15px;
+}
+
+.gnav li a:hover{
+    color: rgba(255, 230, 0, 0.904);
+}
+
+.container{
+    width: 1040px;
+    margin: 0 auto;
+}
+
+h1 a{
+    font-size: 36px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.header-right{
+    padding-top: 45px;
+    float: right;
+}
+
+.fas{
+    padding-left: 10px;
+}
+
+.gnav{
+    padding: 0 200px 0 0;
+}
+
+.search-wrapper{
+    height: 40px;
+    display: inline-block;
+    position: relative;
+    float: right;
+}
+
+.search{
+    width: 0px;
+    height: 34px;
+    background:url(ifn0403.png)no-repeat;
+    background-size: 40px 40px;
+    padding-left: 40px;
+    font-size: 16px;
+    border: none; 
+    position: absolute;
+    right: 0;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.search:focus{
+    width: 210px;
+    height: 34px;
+    border: #e0e0e0 solid 1px; 
+    background-color: white;
+    cursor: text;
+}
+
+.top-wrapper{
+    height: 780px;
+}
+
+.top-wrapper p{
+    padding-top: 90px;
+    font-size: 27px ;
+    color: #444;
+}
+
+.main-wrapper{
+    width: 1440px;
+}
+
+.date{
+    float: left;
+    margin-right: 220px;
+    font-size: 16.8px;
+    opacity: 0.5;
+}
+
+.date:hover{
+    opacity: 1;
+}
+
+.text-area{
+    width: 700px;
+    display: inline-block;
+}
+
+.text-heading{
+    font-size: 25px;
+}
+
+.text-heading a{
+    opacity: 0.5;
+}
+
+.text-heading a:hover{
+    opacity: 1;
+}
+
+.text-box{
+    padding-top: 20px;
+}
+
+.page-list li{
+    float: left;
+    font-size: 16px;
+    display: inline-block;
+    border: solid 0.5px;
+    padding: 8px 18px;
+    margin-left: 8px;
+    opacity: 0.5;
+}
+
+.page-list li:hover{
+    opacity: 1;
+}
+
+.page-list{
+    padding-left: 6px;
+    margin-left: 320px;
+    margin-top: 50px;
+}
+
+.page-list .this{
+    background-color: #EEEEEEEE;
+    color: #333;
+    opacity: 1;
+}
+
+.main-wrapper .container{
+    border-bottom: solid 1px;
+    padding-bottom: 150px;
+}
+
+.profile-wrapper{
+    height: 460px;
+    padding-top: 50px;
+    border-bottom: solid 1px;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    float: left;
+}
+
+.profile{
+    width: 300px;
+    float: left;
+}
+
+.profile-heading{
+    padding: 20px 0 40px 20px;
+    display: inline-block;
+}
+
+.fab{
+    opacity: 0.5;
+}
+
+.fab:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+.sub{
+    width: 210px;
+    float: left;
+    margin-left: 35px;
+}
+
+.sub-input{
+    margin-top: 85px;
+    height: 40px;
+    width: 220px;
+    border: solid 1px #e0e0e0;
+}
+
+.profile-heading .fab{
+    float: left;
+    padding-left: 20px;
+}
+
+.icon li{
+    float: left;
+    margin-left: 40px;
+}
+
+.footer-logo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer{
+    height: 150px
+}
